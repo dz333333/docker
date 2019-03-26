@@ -2,6 +2,6 @@ version: '2'
 services:
   qieshu_homepage:
     build: .
-    image: "ccr.ccs.tencentyun.com/buyfull/${CI_PROJECT_NAME}:${CI_BUILD_REF_NAME}"
+    image: "huozhonglu/docker-demo:latest"
     ports:
      - "80:80"
