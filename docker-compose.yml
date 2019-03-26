@@ -1,0 +1,7 @@
+version: '2'
+services:
+  qieshu_homepage:
+    build: .
+    image: "ccr.ccs.tencentyun.com/buyfull/${CI_PROJECT_NAME}:${CI_BUILD_REF_NAME}"
+    ports:
+     - "80:80"
